@@ -36,7 +36,7 @@ filenya pada repository. Sebagai contoh disini saya akan membuat file README.md 
 ```
 <img src="https://user-images.githubusercontent.com/92713510/137740279-db41107e-1e22-4142-ac4d-f969b924aef5.png">
 
-- Untuk menambahkan file yang sudah kita buat, gunakan perintah git add (Nama File) atau bisa menggunakan git add . (Jika file nya ada banyak)
+- Untuk menambahkan file yang sudah kita buat, maka gunakan perintah git add (Nama File) atau bisa menggunakan git add . (Jika file nya ada banyak)
 ```bash
 > git add README.md
 > git add .
@@ -44,20 +44,20 @@ filenya pada repository. Sebagai contoh disini saya akan membuat file README.md 
 <img src="https://user-images.githubusercontent.com/92713510/137740500-3422f50d-5979-4ef0-a500-8dd6f41d3f10.png">
 
 - Untuk menyimpan perubahan yang ada kedalam database repository
-local, gunakan perintah git commit -m "nama project"
-- Dan yang ada di dalam tanda kutip " " itu nama project kita dan jangan sama setiap kali kita upload project
+local, maka gunakan perintah git commit -m "nama project"
+- Dan yang ada di dalam tanda kutip " " itu nama project kita dan jangan sampai sama setiap kali kita mengupload project
 ```bash
 > git commit -m "First Project"
 ```
 <img src="https://user-images.githubusercontent.com/92713510/137740720-4e78dee4-d78c-4722-a478-21bf3049b248.png">
 
-- Untuk menyimpan setiap perubahan pada repository local, gunakan perintah git remote add origin (url)
+- Untuk menyimpan setiap perubahan pada repository local, gunakanlah perintah git remote add origin (url)
 ```bash
 > git remote add origin https://github.com/kyuurazz/LatihanVCS.git
 ```
 <img src="https://user-images.githubusercontent.com/92713510/137741175-f34678f0-804e-4b85-b679-c611df65f901.png">
 
-- Untuk mengirim perubahan pada repository local ke server, gunakan perintah git push
+- Untuk mengirim perubahan pada repository local ke server, gunakanlah perintah git push
 - Perintah ini akan meminta Username dan Password pada akun github mu
 ```bash
 > git push -u origin master
